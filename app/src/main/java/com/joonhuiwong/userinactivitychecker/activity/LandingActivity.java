@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
+import com.joonhuiwong.userinactivitychecker.MainApplication;
 import com.joonhuiwong.userinactivitychecker.R;
 
 public class LandingActivity extends BaseActivity {
@@ -15,4 +16,5 @@ public class LandingActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
     }
+
 }
